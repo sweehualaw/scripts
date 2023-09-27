@@ -1,7 +1,7 @@
 name: 'Radiant Synthesis'
 description: 'Run Radiant Synthesis'
 inputs:
-  RDF:  # RDF File Path
+  RDF:
     description: 'path to rdf file'
     required: true
 
