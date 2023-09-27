@@ -1,0 +1,11 @@
+name: 'Radiant Synthesis'
+description: 'Run Radiant Synthesis'
+inputs:
+  RDF:  # RDF File Path
+    description: 'path to rdf file'
+    required: true
+
+runs:
+  using: "composite"
+  steps:
+    - run: pnmainc radiant/radiant_synthesis.tcl $RDF
